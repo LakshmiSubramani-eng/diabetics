@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AI Disease Detection</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AI Disease Detection</h1>
+        <p>Early diagnosis using Artificial Intelligence</p>
+
+        <input type="number" id="preg" placeholder="Pregnancies">
+        <input type="number" id="glucose" placeholder="Glucose Level">
+        <input type="number" id="bp" placeholder="Blood Pressure">
+        <input type="number" id="skin" placeholder="Skin Thickness">
+        <input type="number" id="insulin" placeholder="Insulin">
+        <input type="number" id="bmi" placeholder="BMI">
+        <input type="number" id="dpf" placeholder="Diabetes Pedigree Function">
+        <input type="number" id="age" placeholder="Age">
+
+        <button onclick="predict()">Predict</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
